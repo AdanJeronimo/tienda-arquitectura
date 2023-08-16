@@ -337,6 +337,7 @@ img{
 
 /* footer */
 .footer{
+
     background-image: url(../img/footer_bg.jpg);
     background-repeat: no-repeat;
     background-position: center center;
@@ -347,6 +348,12 @@ img{
     justify-content: flex-end;
 
     color: var(--blanco);
+}
+@media (min-width:768px ) { 
+    .footer{
+            height: 40rem;
+    }
+
 }
 .footer .barra{
     padding: 3rem 0 0 0;
